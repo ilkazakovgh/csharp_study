@@ -27,13 +27,13 @@
 //     Console.WriteLine($"There is no third digit");
 
 //Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-bool isHoliday(int dayNumber) {
-    return (dayNumber == 6 || dayNumber == 7);
-}
+// bool isHoliday(int dayNumber) {
+//     return (dayNumber == 6 || dayNumber == 7);
+// }
 
-Console.Write("Input a day number: ");
-int dayNum = Convert.ToInt32(Console.ReadLine());
-if (isHoliday(dayNum))
-    Console.WriteLine("It's a holiday");
-else    
-    Console.WriteLine("It's not a holiday");
+// Console.Write("Input a day number: ");
+// int dayNum = Convert.ToInt32(Console.ReadLine());
+// if (isHoliday(dayNum))
+//     Console.WriteLine("It's a holiday");
+// else    
+//     Console.WriteLine("It's not a holiday");
