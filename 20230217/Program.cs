@@ -9,6 +9,8 @@
 
 // int getDigitsCount(int num) {
 //     int result = 0;
+//     if (num == 0) 
+//         result = 1;    
 //     while (num > 0) {
 //         num = num / 10;
 //         result++;
